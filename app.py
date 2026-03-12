@@ -9,3 +9,6 @@ def login():
 @app.route("/payment")
 def payment():
     return "Payment API"
+@app.route("/cart")
+def cart():
+    return "Cart API"
